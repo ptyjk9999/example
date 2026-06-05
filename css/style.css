@@ -1,0 +1,181 @@
+/* 폰트 링크 */
+@import url(pretendard.css);/*외부 css문서 링크*/
+
+/* commons */
+body{
+  font-family: "Pretendard";
+  font-size: 16px;
+  color: #1f1f1f;
+  line-height: 1.4;
+}
+.container{
+  width: 1440px;
+  margin: auto;
+  padding: 0 32px;
+}
+/* ==================== */
+
+/* nav */
+nav{
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1)
+}
+nav .container{
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .menu{
+  display: flex;
+  gap: 32px;
+}
+.menu li a{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* hero */
+#hero{
+  width: 100%;
+  min-width: 1440px;
+  height: 400px;
+  background: url(../img/top.png) center/cover no-repeat;
+}
+#hero > .container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#hero h1{
+  font-size: 52px;
+  margin-bottom: 10px;
+}
+#hero h1 b{
+  color: #ed8b01;
+}
+#hero p{
+  font-size: 24px;
+  font-weight: 600;
+  color: #535353;
+}
+
+/* main */
+main > section{
+  width: 100%;
+  background-color: #fff;
+}
+main > section > .container{
+  padding: 80px 32px;
+}
+main > section > .container > h1{
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 32px;
+}
+main > section > .container > p{
+  text-align: center;
+  font-size: 16px;
+  color: #767676;
+}
+main > section > .container > .hash{
+  font-weight: 600;
+}
+/* special price */
+#special-price .card-wrap{
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+}
+#special-price .card-wrap .card{
+  width: 540px;
+  border: 1px solid #e1e4ed;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+#special-price .card .pic img{
+  display: block;
+  width: 100%;
+}
+#special-price .card .txt{
+  padding: 40px;
+}
+#special-price .card .txt h2{
+  font-size: 20px;
+  color: #6d758f;
+  margin-bottom: 24px;
+}
+#special-price .card .txt p{
+  font-size: 14px;
+  color:#6d758f;
+  line-height: 22px;
+}
+
+/* #vase */
+#vase .card-wrap{
+  width: 1090px;
+  margin: 48px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#vase .card-wrap .card{
+  width: 350px;
+  border-radius: 8px;
+  overflow:hidden;
+  border: 1px solid #e1e4ed;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+#vase .pic img{
+  width: 100%;
+  display: block;
+}
+#vase .txt{
+  padding: 30px;
+}
+#vase .txt h2{
+  font-size: 20px;
+  color: #6d758f;
+  margin-bottom: 22px;
+}
+#vase .txt p{
+  font-size: 14px;
+  line-height: 22px;
+  color: #6d758f;
+  margin-bottom: 22px;
+}
+#vase .txt a{
+  color: #6d758f;
+  font-weight: bold;
+}
+
+/* footer */
+footer{
+  width: 100%;
+  min-width: 1440px;
+  background-color: #424242;
+}
+footer > .container{
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer h2{
+  font-size: 14px;
+  font-weight: normal;
+  color: #fff;
+}
+footer .sns{
+  display: flex;
+  gap: 16px;
+}
+footer .sns img{
+  display: block;
+}
